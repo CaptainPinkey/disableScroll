@@ -31,7 +31,7 @@ Only 2 steps needed to use disableScroll:
 ```
 
 2. Call disableScroll!
-```javascript
+```html
 <script type="text/javascript">
   disableScroll();
 </script>
@@ -44,12 +44,12 @@ Want more?
 
 To use the events listen to them for example with jQuery
 
-```javascript
+```html
 $(window).on('scrollDown', callback);
 ```
 
 Want to reeanble scrolling? Easy going!
-```javascript
+```html
 <script type="text/javascript">
   enableScroll();
 </script>
